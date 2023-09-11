@@ -25,7 +25,7 @@ class WebViewActivity : AppCompatActivity() {
     private fun webViewSetUp(){
         binding.webView.webViewClient = WebViewClient()
         binding.webView.apply {
-            loadUrl("https://developer.android.com/studio/login.html?success=true")
+            loadUrl("https://github.com/otiego/PersonalDetailsHNGxInternship")
             settings.javaScriptEnabled  = true
             settings.safeBrowsingEnabled = true
         }
